@@ -11,7 +11,7 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 25px;
-    max-width: 450px;
+    max-width: 550px;
     margin: 0 auto;
     color: #1f5755;
     position: relative;
@@ -21,7 +21,7 @@ body {
 .content {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     gap: 40px;
     padding: 0 30px;
     width: calc(100% - 60px);
@@ -56,7 +56,7 @@ span.weekday {
 .lessons {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
     gap: 20px;
 }
@@ -75,8 +75,9 @@ span.time {
 }
 
 span.title {
-    font-size: 12px;
+    font-size: 11px;
     font-family: "montserratarm-light";
+    line-height: 18px;
 }
 
 span.title .name {
@@ -111,7 +112,7 @@ span.title .name {
     right: 30px;
 }
 
-.bg {width: 100%;top: 0;position: absolute;}
+.bg {width: 100%;top: 0;position: absolute;z-index: -1;}
 
 @font-face {    
     font-family: hmk;
