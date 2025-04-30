@@ -2,20 +2,37 @@ html {}
 
 body {
     background: white;
+    margin: 0;
+}
+
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 450px;
+    margin: 0 auto;
+    color: #1f5755;
+    position: relative;
+    padding: 0 0 50px;
 }
 
 .content {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
+    padding: 0 30px;
+    width: calc(100% - 60px);
+    flex-direction: column;
 }
 
 .week {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 35px;
 }
 
 .day {
@@ -27,13 +44,13 @@ body {
 }
 
 span.number {
-    font-size: 24pt;
-    font-family: "";
+    font-size: 40px;
+    font-family: "montserratarm-medium";
 }
 
 span.weekday {
-    font-size: 11pt;
-    font-family: "";
+    font-size: 19px;
+    font-family: "montserratarm-light";
 }
 
 .lessons {
@@ -53,37 +70,50 @@ span.weekday {
 }
 
 span.time {
-    font-size: 6.2pt;
-    font-family: "";
+    font-size: 11px;
+    font-family: "montserratarm-semibold";
 }
 
-span.name {
-    font-size: 7.47pt;
-    font-family: "";
+span.title {
+    font-size: 12px;
+    font-family: "montserratarm-light";
 }
 
-.root {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 30px;
-    gap: 20px;
-    max-width: 1080px;
+span.title .name {
+    color: #123938;
+    font-family: "montserratarm-medium";
 }
+
+.month {width: 50%;margin: 0 auto;text-align: right;}
 
 .month span {
-    font-size: 28.15pt;
-    font-family: "";
+    font-size: 40px;
+    font-family: "tarumian";
+    color: #123938;
 }
 
 .header {
-    font-size: 32.13pt;
-    font-family: "";
+    font-size: 32.13px;
+    font-family: "hmk";
     text-transform: uppercase;
+    padding: 23px;
+    width: calc(100% - 46px);
+    background-image: url(./images/a.png);
+    background-size: contain;
+    color: #fff;
+    position: relative;
 }
 
-@font-face {
+.logo {
+    position: absolute;
+    width: 85px;
+    bottom: -40px;
+    right: 30px;
+}
+
+.bg {width: 100%;top: 0;position: absolute;}
+
+@font-face {    
     font-family: hmk;
     src: url(./fonts/hmk.ttf);
 }
