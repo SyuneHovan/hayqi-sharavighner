@@ -26,9 +26,15 @@ body {
     flex-direction: column;
 }
 
-span.number {font-size: 24pt;}
+span.number {
+    font-size: 24pt;
+    font-family: "";
+}
 
-span.weekday {font-size: 11pt;}
+span.weekday {
+    font-size: 11pt;
+    font-family: "";
+}
 
 .lessons {
     display: flex;
@@ -46,9 +52,15 @@ span.weekday {font-size: 11pt;}
     flex-direction: column;
 }
 
-span.time {font-size: 6.2pt;}
+span.time {
+    font-size: 6.2pt;
+    font-family: "";
+}
 
-span.name {font-size: 7.47pt;}
+span.name {
+    font-size: 7.47pt;
+    font-family: "";
+}
 
 .root {
     display: flex;
@@ -62,9 +74,56 @@ span.name {font-size: 7.47pt;}
 
 .month span {
     font-size: 28.15pt;
+    font-family: "";
 }
 
 .header {
     font-size: 32.13pt;
+    font-family: "";
     text-transform: uppercase;
+}
+
+@font-face {
+    font-family: hmk;
+    src: url(./fonts/hmk.ttf);
+}
+@font-face {
+    font-family: tarumian;
+    src: url(./fonts/tarumian.ttf);
+}
+@font-face {
+    font-family: montserratarm-thin;
+    src: url(./fonts/montserratarm-thin.otf);
+}
+@font-face {
+    font-family: montserratarm-extralight;
+    src: url(./fonts/montserratarm-extralight.otf);
+}
+@font-face {
+    font-family: montserratarm-light;
+    src: url(./fonts/montserratarm-light.otf);
+}
+@font-face {
+    font-family: montserratarm-regular;
+    src: url(./fonts/montserratarm-regular.otf);
+}
+@font-face {
+    font-family: montserratarm-medium;
+    src: url(./fonts/montserratarm-medium.otf);
+}
+@font-face {
+    font-family: montserratarm-semibold;
+    src: url(./fonts/montserratarm-semibold.otf);
+}
+@font-face {
+    font-family: montserratarm-bold;
+    src: url(./fonts/montserratarm-bold.otf);
+}
+@font-face {
+    font-family: montserratarm-extrabold;
+    src: url(./fonts/montserratarm-extrabold.otf);
+}
+@font-face {
+    font-family: montserratarm-black;
+    src: url(./fonts/montserratarm-black.otf);
 }
