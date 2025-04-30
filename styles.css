@@ -11,7 +11,7 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 25px;
-    max-width: 550px;
+    max-width: 650px;
     margin: 0 auto;
     color: #1f5755;
     position: relative;
@@ -23,8 +23,8 @@ body {
     justify-content: center;
     align-items: start;
     gap: 40px;
-    padding: 0 30px;
-    width: calc(100% - 60px);
+    padding: 0 50px;
+    width: calc(100% - 100px);
     flex-direction: column;
 }
 
@@ -44,12 +44,12 @@ body {
 }
 
 span.number {
-    font-size: 40px;
+    font-size: 55px;
     font-family: "montserratarm-medium";
 }
 
 span.weekday {
-    font-size: 19px;
+    font-size: 26px;
     font-family: "montserratarm-light";
 }
 
