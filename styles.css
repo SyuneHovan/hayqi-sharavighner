@@ -70,12 +70,12 @@ span.weekday {
 }
 
 span.time {
-    font-size: 11px;
+    font-size: 12px;
     font-family: "montserratarm-semibold";
 }
 
 span.title {
-    font-size: 11px;
+    font-size: 14px;
     font-family: "montserratarm-light";
     line-height: 18px;
 }
@@ -88,21 +88,22 @@ span.title .name {
 .month {width: 50%;margin: 0 auto;text-align: right;}
 
 .month span {
-    font-size: 40px;
+    font-size: 60px;
     font-family: "tarumian";
     color: #123938;
 }
 
 .header {
-    font-size: 32.13px;
+    font-size: 70px;
     font-family: "hmk";
     text-transform: uppercase;
-    padding: 23px;
-    width: calc(100% - 46px);
+    padding: 10px 40px;
+    width: calc(100% - 80px);
     background-image: url(./images/a.png);
     background-size: contain;
     color: #fff;
     position: relative;
+    background-repeat: repeat-x;
 }
 
 .logo {
