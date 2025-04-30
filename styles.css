@@ -1,0 +1,70 @@
+html {}
+
+body {
+    background: white;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.week {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    flex-direction: column;
+}
+
+span.number {font-size: 24pt;}
+
+span.weekday {font-size: 11pt;}
+
+.lessons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lesson {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    flex-direction: column;
+}
+
+span.time {font-size: 6.2pt;}
+
+span.name {font-size: 7.47pt;}
+
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+    max-width: 1080px;
+}
+
+.month span {
+    font-size: 28.15pt;
+}
+
+.header {
+    font-size: 32.13pt;
+    text-transform: uppercase;
+}
