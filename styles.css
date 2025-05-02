@@ -129,7 +129,9 @@ span.title {
     line-height: 1.9rem;
 }
 
-span.title .name {
+span.name {
+    font-size: 1.6rem;
+    line-height: 1.9rem;
     color: #123938;
     font-family: "montserratarm-medium";
 }
