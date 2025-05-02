@@ -163,3 +163,9 @@ span.title .name {
 }
 
 .bg {width: 100%;top: 0;position: absolute;z-index: -1;}
+
+@media (min-width: 481px) {
+    .root {
+        max-width: 100%;
+    }
+}
