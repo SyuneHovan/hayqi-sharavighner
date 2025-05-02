@@ -58,7 +58,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 2.7rem;
+    gap: 4rem;
     max-width: 650px;
     margin: 0 auto;
     color: #1f5755;
@@ -70,9 +70,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: start;
-    gap: 6rem;
-    padding: 0 50px;
-    width: calc(100% - 100px);
+    gap: 7rem;
+    padding: 0px 4rem;
+    width: calc(100% - 8rem);
     flex-direction: column;
 }
 
@@ -80,7 +80,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 35px;
+    gap: 5rem;
 }
 
 .day {
@@ -113,7 +113,7 @@ span.weekday {
     display: flex;
     justify-content: center;
     align-items: start;
-    gap: 10px;
+    gap: 1.4rem;
     flex-direction: column;
 }
 
@@ -134,10 +134,10 @@ span.title .name {
     font-family: "montserratarm-medium";
 }
 
-.month {width: 45%;margin: 0 auto;text-align: right;}
+.month {width: 50%;margin: 0 auto;text-align: right;}
 
 .month span {
-    font-size: 6rem;
+    font-size: 7rem;
     font-family: "tarumian";
     color: #123938;
 }
@@ -146,8 +146,8 @@ span.title .name {
     font-size: 8rem;
     font-family: "hmk";
     text-transform: uppercase;
-    padding: 1.5rem 3.5rem;
-    width: calc(100% - 7rem);
+    padding: 4rem 4.5rem;
+    width: calc(100% - 9rem);
     background-image: url(./images/a.png);
     background-size: cover;
     color: #fff;
@@ -158,14 +158,20 @@ span.title .name {
 .logo {
     position: absolute;
     width: 11rem;
-    bottom: -5.2rem;
+    bottom: -5rem;
     right: 4rem;
 }
 
-.bg {width: 100%;top: 0;position: absolute;z-index: -1;}
+.bg {max-width: 1200px;top: 65px;position: absolute;z-index: -1;left: 0;width: 100%;}
 
 @media (min-width: 481px) {
     .root {
         max-width: 100%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    :root {
+        font-size: 1vw;
     }
 }
