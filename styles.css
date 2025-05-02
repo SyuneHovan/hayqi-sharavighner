@@ -120,6 +120,7 @@ span.weekday {
 span.time {
     font-size: 1.4rem;
     font-family: "montserratarm-semibold";
+    display: flex;
 }
 
 span.title {
@@ -162,10 +163,3 @@ span.title .name {
 }
 
 .bg {width: 100%;top: 0;position: absolute;z-index: -1;}
-
-
-@media (max-width: 481px) {
-    :root {
-        font-size: 5vw;
-    }
-}
