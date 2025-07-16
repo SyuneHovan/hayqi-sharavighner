@@ -74,6 +74,8 @@ body {
     padding: 0px 4rem;
     width: calc(100% - 8rem);
     flex-direction: column;
+    padding-bottom: 6rem;
+    border-bottom: 7rem solid #a1e1df38;
 }
 
 .week {
