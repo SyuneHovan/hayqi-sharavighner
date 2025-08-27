@@ -139,10 +139,11 @@ span.name {
     text-align: right;
 }
 
-span.link {
+span.link,
+span.link * {
     font-size: 1rem;
     line-height: 1.9rem;
-    color: #123938;
+    color: #123938 !important;
     font-family: "montserratarm-light";
     text-align: right;
     text-decoration: underline;
